@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
@@ -15,14 +15,14 @@ for n in range(10000):
 try:
     import requests
 except ImportError:
-    os.system('pip2 install mechanize')
+    os.system('pip install mechanize')
     
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install request')
+    os.system('pip install requests')
     time.sleep(1)
-    os.system('Then type: python2 boss404')
+    os.system('Then type: python boss404')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -39,7 +39,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
-	print 'Thanks.'
+	print ('Thanks.') 
 	os.sys.exit()
 
 def acak(b):
@@ -108,11 +108,11 @@ logo1 = """
                                                   
 
 ╔══──────────────────────────╗─══╗
-║ OWNER 🔥🔥🔥QING TRICKER           ║║
-║  GITHUB 🔥🔥🔥 QINK-TRICKER(RK)   ║ ║
-║ FACEBOOK 🔥🔥🔥Qing Tricker ║ ║
-║  ENJOY 💝💝💝Pak Cloning                ║ ║
-║   Note 💝💝💝Use Fastest Speed NeT  ║ ║
+║ OWNER 🔥🔥🔥QING TRICKER        ║   ║
+║  GITHUB 🔥🔥🔥 QING-TRICKER(RK) ║   ║
+║ FACEBOOK 🔥🔥🔥Qing Tricker     ║   ║
+║  ENJOY 💝💝💝Pak Cloning        ║   ║
+║   Note 💝💝Use Fastest Speed NeT║   ║
 ╚══──────────────────────────╝─══╝
 
 """
@@ -133,19 +133,19 @@ logo2 = """
                                                             
                                                    
                          DON'T COPY MY SCRIPT
-                                      RED-MAFIA          
+                                      QING-TRICKER          
                                         TNX(RK)
 ╔══──────────────────────────╗─══╗
-║ OWNER 🔥🔥🔥QING TRICKER           ║║
-║  GITHUB 🔥🔥🔥 QINK-TRICKER(RK)   ║ ║
-║ FACEBOOK 🔥🔥🔥Qing Tricker ║ ║
-║  ENJOY 💝💝💝Pak Cloning                ║ ║
-║   Note 💝💝💝Use Fastest Speed NeT  ║ ║
+║ OWNER 🔥🔥🔥QING TRICKER        ║   ║
+║  GITHUB 🔥🔥🔥 QING-TRICKER(RK) ║   ║
+║ FACEBOOK 🔥🔥🔥Qing Tricker     ║   ║
+║  ENJOY 💝💝💝Pak Cloning        ║   ║
+║   Note 💝💝Use Fastest Speed NeT║   ║
 ╚══──────────────────────────╝─══╝
 """
 print("""
-Owner: RED-MAFIA(R.K)
-Facebook: RIAZ-HACKER
+Owner: QING-TRICKER(R.K)
+Facebook: QING TRICKER
 
 """)
 CorrectUsername = "QING"
@@ -203,7 +203,7 @@ def Zeek():
     time.sleep(0.10)
     print '\x1b[1;96m ════RK'
     time.sleep(0.10)
-    print '\x1b[1;97m════RED-MAFIA'
+    print '\x1b[1;97m════QINK-TRICKER'
     time.sleep(0.10)
     print '\x1b[1;91m ════DONT COPY MY SCRIPT'
     time.sleep(0.10)
